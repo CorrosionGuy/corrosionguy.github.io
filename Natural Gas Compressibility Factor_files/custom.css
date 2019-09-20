@@ -1,0 +1,23 @@
+@media print {
+  a[href]:after {
+    content: "";
+  }
+  .sidebar{display:none;}
+  .nav-tabs{display:none;}
+  .footer{display:none;}
+  .header-top{display:none;}
+}
+
+.input-group-addon {
+    min-width:100px;
+    text-align:left;
+    /*background-color: #e5d8d7;*/
+}
+.p_hide{display: none;}
+.table input{
+    display:block;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100%;
+}
